@@ -1,0 +1,105 @@
+.blog-list {
+  margin-top: 2rem;
+}
+.blog-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.blog-item:last-child {
+  border-bottom: none;
+}
+.blog-meta {
+  margin-bottom: 0.5rem;
+}
+.blog-date {
+  color: #999;
+  font-size: 0.9rem;
+}
+.blog-title {
+  margin: 0.5rem 0;
+}
+.blog-title a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.blog-title a:hover {
+  color: #0366d6;
+}
+.blog-excerpt {
+  color: #666;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+.read-more a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+.read-more a:hover {
+  text-decoration: underline;
+}
+.busuanzi-info {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #999;
+}
+.busuanzi-info #busuanzi_value_site_pv {
+  font-weight: 500;
+  color: #666;
+}
+.post-meta {
+  margin: 1rem 0 2rem;
+  padding: 0 1.2rem;
+  font-size: 1.4rem;
+  color: #7a8288;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.post-meta .post-date {
+  margin-right: 0.5rem;
+}
+.post-meta .post-category,
+.post-meta .post-tags {
+  display: inline-flex;
+  gap: 0.3rem;
+}
+.post-meta .tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: #f0f0f0;
+  color: #666;
+  font-size: 1.2rem;
+  border-radius: 3px;
+}
+.post-content {
+  margin-top: 2rem;
+}
+.comments-section {
+  margin-top: 4rem;
+  padding: 2rem 1.2rem;
+  border-top: 1px solid #e0e0e0;
+}
+.comments-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+@media (min-width: 34em) {
+  .post-meta {
+    padding: 0 3.6rem;
+  }
+  .comments-section {
+    padding: 2rem 3.6rem;
+  }
+}
+.no-posts {
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 1.6rem;
+}
